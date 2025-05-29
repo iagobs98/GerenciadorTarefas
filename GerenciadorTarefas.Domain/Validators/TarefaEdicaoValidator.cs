@@ -2,7 +2,7 @@
 
 namespace GerenciadorTarefas.Domain.Validators
 {
-    public class TarefaEdicaoValidator : TarefaCadastroValidator
+    public class TarefaEdicaoValidator : TarefaValidator
     {
         public TarefaEdicaoValidator()
         {
