@@ -1,0 +1,250 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "GerenciadorTarefas.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/tarefas": {
+      "post": {
+        "tags": [
+          "Tarefa"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CadastrarTarefaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CadastrarTarefaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CadastrarTarefaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Tarefa"
+        ],
+        "parameters": [
+          {
+            "name": "eStatusTarefa",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/EStatusTarefa"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TarefaConsultaDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TarefaConsultaDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TarefaConsultaDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/tarefas/{id}": {
+      "get": {
+        "tags": [
+          "Tarefa"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Tarefa"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TarefaEditarDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TarefaEditarDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TarefaEditarDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Tarefa"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CadastrarTarefaDTO": {
+        "type": "object",
+        "properties": {
+          "titulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
+          "eStatusTarefa": {
+            "$ref": "#/components/schemas/EStatusTarefa"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EStatusTarefa": {
+        "enum": [
+          "Pendente",
+          "EmProgresso",
+          "Concluida"
+        ],
+        "type": "string"
+      },
+      "TarefaConsultaDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "titulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
+          "dataCriacao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "dataConclusao": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "eStatusTarefa": {
+            "$ref": "#/components/schemas/EStatusTarefa"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TarefaEditarDTO": {
+        "type": "object",
+        "properties": {
+          "titulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
+          "dataConclusao": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "eStatusTarefa": {
+            "$ref": "#/components/schemas/EStatusTarefa"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

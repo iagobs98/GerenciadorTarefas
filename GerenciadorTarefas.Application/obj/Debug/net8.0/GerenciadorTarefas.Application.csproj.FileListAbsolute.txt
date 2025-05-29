@@ -1,0 +1,17 @@
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\bin\Debug\net8.0\GerenciadorTarefas.Application.deps.json
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\bin\Debug\net8.0\GerenciadorTarefas.Application.dll
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\bin\Debug\net8.0\GerenciadorTarefas.Application.pdb
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\obj\Debug\net8.0\GerenciadorTarefas.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\obj\Debug\net8.0\GerenciadorTarefas.Application.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\obj\Debug\net8.0\GerenciadorTarefas.Application.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\obj\Debug\net8.0\GerenciadorTarefas.Application.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\obj\Debug\net8.0\GerenciadorTarefas.Application.dll
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\obj\Debug\net8.0\refint\GerenciadorTarefas.Application.dll
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\obj\Debug\net8.0\GerenciadorTarefas.Application.pdb
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\obj\Debug\net8.0\ref\GerenciadorTarefas.Application.dll
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\bin\Debug\net8.0\GerenciadorTarefas.Data.dll
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\bin\Debug\net8.0\GerenciadorTarefas.Domain.dll
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\bin\Debug\net8.0\GerenciadorTarefas.Domain.pdb
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\bin\Debug\net8.0\GerenciadorTarefas.Data.pdb
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\obj\Debug\net8.0\GerenciadorTarefas.Application.csproj.AssemblyReference.cache
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Application\obj\Debug\net8.0\Gerencia.FFA86783.Up2Date

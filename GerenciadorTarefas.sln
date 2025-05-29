@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorTarefas.API", "GerenciadorTarefas.API\GerenciadorTarefas.API.csproj", "{DDEE0286-D880-49FC-BDBC-04126E367A17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{EDC18293-4E23-4D5A-A231-BDDEE04AC086}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{04466598-26A2-4691-8FDC-77D3C45A3168}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{D722F5B8-10B6-4746-85E1-9718EC3C575C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorTarefas.Domain", "GerenciadorTarefas.Domain\GerenciadorTarefas.Domain.csproj", "{16607400-1697-42DF-9F95-20809DF94797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorTarefas.Application", "GerenciadorTarefas.Application\GerenciadorTarefas.Application.csproj", "{21215361-E34C-4CA7-8C85-8F441BD524E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorTarefas.Data", "GerenciadorTarefas.Repository\GerenciadorTarefas.Data.csproj", "{66199BE0-54D6-4DD2-9CB5-602E13D1A460}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDEE0286-D880-49FC-BDBC-04126E367A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDEE0286-D880-49FC-BDBC-04126E367A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDEE0286-D880-49FC-BDBC-04126E367A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDEE0286-D880-49FC-BDBC-04126E367A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16607400-1697-42DF-9F95-20809DF94797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16607400-1697-42DF-9F95-20809DF94797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16607400-1697-42DF-9F95-20809DF94797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16607400-1697-42DF-9F95-20809DF94797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21215361-E34C-4CA7-8C85-8F441BD524E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21215361-E34C-4CA7-8C85-8F441BD524E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21215361-E34C-4CA7-8C85-8F441BD524E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21215361-E34C-4CA7-8C85-8F441BD524E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66199BE0-54D6-4DD2-9CB5-602E13D1A460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66199BE0-54D6-4DD2-9CB5-602E13D1A460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66199BE0-54D6-4DD2-9CB5-602E13D1A460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66199BE0-54D6-4DD2-9CB5-602E13D1A460}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDEE0286-D880-49FC-BDBC-04126E367A17} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{16607400-1697-42DF-9F95-20809DF94797} = {EDC18293-4E23-4D5A-A231-BDDEE04AC086}
+		{21215361-E34C-4CA7-8C85-8F441BD524E6} = {04466598-26A2-4691-8FDC-77D3C45A3168}
+		{66199BE0-54D6-4DD2-9CB5-602E13D1A460} = {D722F5B8-10B6-4746-85E1-9718EC3C575C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2CEF066-95E4-455E-976A-EEF257F6CC3A}
+	EndGlobalSection
+EndGlobal

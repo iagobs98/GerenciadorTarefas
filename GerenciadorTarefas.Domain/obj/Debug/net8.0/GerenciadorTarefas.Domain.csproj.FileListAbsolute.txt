@@ -1,0 +1,12 @@
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Domain\bin\Debug\net8.0\GerenciadorTarefas.Domain.deps.json
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Domain\bin\Debug\net8.0\GerenciadorTarefas.Domain.dll
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Domain\bin\Debug\net8.0\GerenciadorTarefas.Domain.pdb
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\GerenciadorTarefas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\GerenciadorTarefas.Domain.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\GerenciadorTarefas.Domain.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\GerenciadorTarefas.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\GerenciadorTarefas.Domain.dll
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\refint\GerenciadorTarefas.Domain.dll
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\GerenciadorTarefas.Domain.pdb
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\ref\GerenciadorTarefas.Domain.dll
+C:\Users\Pichau\Desktop\.net projetos\GerenciadorTarefas\GerenciadorTarefas.Domain\obj\Debug\net8.0\GerenciadorTarefas.Domain.csproj.AssemblyReference.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CDPoycfrQNg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pichau\\Desktop\\.net projetos\\GerenciadorTarefas\\GerenciadorTarefas.Domain\\GerenciadorTarefas.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pichau\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
