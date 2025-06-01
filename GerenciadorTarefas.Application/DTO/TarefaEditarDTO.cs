@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using GerenciadorTarefas.Domain.Entidades;
-using GerenciadorTarefas.Domain.Enum;
+﻿using GerenciadorTarefas.Domain.Enum;
 
 namespace GerenciadorTarefas.Application.DTO
 {

@@ -22,14 +22,17 @@ namespace GerenciadorTarefas.Application.Services
             _tarefaEditarRepository = tarefaEditarRepository;
         }
 
-        public async Task EditarAsync(int idTarefa, TarefaEditarDTO tarefaEditarDTO)
+        public async Task EditarAsync(int idTarefa, IBaseDTO entityEdicaoDTO)
         {
-            Tarefa tarefa = await _tarefaConsultaRepository.ObterAsync(idTarefa) 
+            Tarefa tarefa = await _tarefaConsultaRepository.ObterAsync(idTarefa)
                 ?? throw new EntityNotFoundException("Tarefa não encontrada");
 
+
+            TarefaEditarDTO tarefaEdicaoDTO = (TarefaEditarDTO)entityEdicaoDTO; 
+
             tarefa.Editar(
-                tarefaEditarDTO.Titulo, tarefaEditarDTO.Descricao,
-                tarefaEditarDTO.DataConclusao, tarefaEditarDTO.EStatusTarefa
+                tarefaEdicaoDTO.Titulo, tarefaEdicaoDTO.Descricao,
+                tarefaEdicaoDTO.DataConclusao, tarefaEdicaoDTO.EStatusTarefa
             );
 
             var tarefaValidator = new TarefaEdicaoValidator();

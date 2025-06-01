@@ -1,9 +1,9 @@
-﻿using GerenciadorTarefas.Application.DTO;
+﻿using GerenciadorTarefas.Application.Services.Base;
 
 namespace GerenciadorTarefas.Application.Services.Interfaces
 {
-    public interface ITarefaEditarService
+    public interface ITarefaEditarService : IEditarService
     {
-        Task EditarAsync(int idTarefa, TarefaEditarDTO tarefaEditarDTO);
+ 
     }
 }
