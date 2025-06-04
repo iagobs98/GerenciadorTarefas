@@ -22,7 +22,7 @@ Este repositório contém uma API de gerenciamento de tarefas desenvolvida com A
 ## 🚀 Como rodar o projeto localmente
 
 1. **Clone o repositório**
-2. No arquivo **appsettings.Development.json**, configure a conexão com o SQL Server Express:
+2. No arquivo **appsettings.Development.json**, no **DefaultConnection**, configure a conexão com o SQL Server Express
 3. No visual Studio, Vá até o menu: Ferramentas → Gerenciador de Pacotes NuGet → Console do Gerenciador de Pacotes.
 4. Selecione o projeto **Infrastructure\GerenciadorTarefas.Data** e rode as migrations através do comando: **update-database**
 5. Rode os teste unitários através do comando: **dotnet test Domain.Tests**
