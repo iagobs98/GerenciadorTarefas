@@ -23,10 +23,11 @@ Este repositório contém uma API de gerenciamento de tarefas desenvolvida com A
 
 1. **Clone o repositório**
 2. No arquivo **appsettings.Development.json**, no **DefaultConnection**, configure a conexão com o SQL Server Express
-3. No visual Studio, Vá até o menu: Ferramentas → Gerenciador de Pacotes NuGet → Console do Gerenciador de Pacotes.
-4. Selecione o projeto **Infrastructure\GerenciadorTarefas.Data** e rode as migrations através do comando: **update-database**
-5. Rode os teste unitários através do comando: **dotnet test Domain.Tests**
-6. Rode a aplicação através do comando: **dotnet run --project GerenciadorTarefas.API**
-7. Verifique e copie a url onde a API está rodando, por exemplo: **http://localhost:5112**. 
-8. Siga para clone do projeto web [GerenciadorTarefasApp](https://github.com/iagobs98/GerenciadorTarefasApp)
+3. Inicialize a conexão com o SQL Server Express
+4. No visual Studio, Vá até o menu: Ferramentas → Gerenciador de Pacotes NuGet → Console do Gerenciador de Pacotes.
+5. Selecione o projeto **Infrastructure\GerenciadorTarefas.Data** e rode as migrations através do comando: **update-database**
+6. Rode os teste unitários através do comando: **dotnet test Domain.Tests**
+7. Rode a aplicação através do comando: **dotnet run --project GerenciadorTarefas.API**
+8. Verifique e copie a url onde a API está rodando, por exemplo: **http://localhost:5112**. 
+9. Siga para clone do projeto web [GerenciadorTarefasApp](https://github.com/iagobs98/GerenciadorTarefasApp)
 
